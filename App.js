@@ -12,7 +12,7 @@ class App extends Component {
         </header>
           <p className="App-intro" style={{color: "red"}}>Všetko je OK</p>
           <Button variant="contained" color="primary">
-          Pekný gombíček 11.44
+          Pekný gombíček 11.444
         </Button>
       </div>
 
