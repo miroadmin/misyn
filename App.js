@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Button from '@material-ui/core/Button';
+import { AccessAlarm, ThreeDRotation } from '@material-ui/icons';
+
 import './App.css';
 const list=[{title:'React',url:'htpp',author:'Jordan',num_commnets:3,points:4,objectID:0},
             {title:'React1',url:'htpps',author:'Miro',num_commnets:7,points:5,objectID:1}];
@@ -12,7 +14,12 @@ class App extends Component {
         </header>
           <p className="App-intro" style={{color: "red"}}>Všetko je OK</p>
           <Button variant="contained" color="primary">
-          Pekný gombíček 11.444
+            
+          OK
+        </Button>
+
+        <Button variant="contained" color="primary">
+          Cancel
         </Button>
       </div>
 
